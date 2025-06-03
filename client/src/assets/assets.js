@@ -487,7 +487,7 @@ export const dummyProducts = [
   },
   {
     _id: "ek63j34k",
-    name: "Sprite 1.5L",
+    name: "5LSprite 1.",
     category: "Drinks",
     price: 79,
     offerPrice: 74,

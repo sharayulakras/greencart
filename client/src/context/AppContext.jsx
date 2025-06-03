@@ -22,7 +22,11 @@ export const AppContextProvider = ({children})=>{
     const [cartItems, setCartItems] = useState({})
     const [searchQuery, setSearchQuery] = useState({})
 
-  // Fetch Seller Status
+    const fetchProducts = async ()=>{
+        setProducts(dummyProducts)
+    }
+
+  /* Fetch Seller Status
   const fetchSeller = async ()=>{
     try {
         const {data} = await axios.get('/api/seller/is-auth');
@@ -63,7 +67,7 @@ const fetchUser = async ()=>{
         } catch (error) {
             toast.error(error.message)
         }
-    }
+    }*/
 
 // Add Product to Cart
 const addToCart = (itemId)=>{
@@ -122,8 +126,8 @@ const getCartAmount = () =>{
 
 
     useEffect(()=>{
-        fetchUser()
-        fetchSeller()
+        //fetchUser()    
+        //fetchSeller()
         fetchProducts()
     },[])
 
