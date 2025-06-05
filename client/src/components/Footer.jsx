@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-                Copyright {new Date().getFullYear()} © GreatStack All Right Reserved.
+                Made by Sharayu Lakras 
             </p>
         </div>
     );
