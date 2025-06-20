@@ -48,18 +48,17 @@ Full Stack Grocery Delivery Ecommerce website using **MongoDB**, **Express**, **
 
 ### 🖥️ Frontend Setup
 
-```bash
 cd frontend
 npm install
 npm run dev
 
 ### 🛠️ Backend Setup
 
-```bash
 cd backend
 npm install
 npm run server
 
+----------------------------
 
 ### 🖼️ Screenshots
 
@@ -69,6 +68,7 @@ npm run server
 
 ![Product Page](./server/Screenshorts/productpage.png)
 
+-------------------
 
 ## 🔗 Live Demo Link
 
