@@ -39,24 +39,28 @@ Full Stack Grocery Delivery Ecommerce website using **MongoDB**, **Express**, **
 
 --------------
 
-## ⚙️ Setup Instructions
-
 ### ✅ Prerequisites
 
 - Node.js and npm
 - MongoDB (Atlas or local)
 
-### 🖥️ Frontend Setup
+## ⚙️ Setup Instructions
 
+# 🖥️ Frontend Setup
+
+```bash 
 cd frontend
 npm install
 npm run dev
+```
 
-### 🛠️ Backend Setup
+# 🛠️ Backend Setup
 
+```bash
 cd backend
 npm install
 npm run server
+```
 
 ----------------------------
 
@@ -72,7 +76,7 @@ npm run server
 
 ## 🔗 Live Demo Link
 
-- 🌐 **Frontend**: [Vercel]()
+- 🌐 **Frontend**: [Vercel](http://localhost:5173/)
 
 - 🚀 **Backend**: API [Vercel](https://greencartserver-one.vercel.app)
 
